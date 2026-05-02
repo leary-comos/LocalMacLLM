@@ -136,4 +136,3 @@ References:
   - Save and load checkpoints (`best` and `last`) and generate text via a CLI script.
 - On the reference hardware (M1 Pro, 16GB RAM), quick run completes within ~5–10 minutes and produces intelligible short stories.
 
-
