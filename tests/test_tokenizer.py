@@ -59,4 +59,3 @@ def test_encode_decode_round_trip():
     # SentencePiece preserves content; minor whitespace normalization can occur
     assert decoded.strip() == text.strip()
 
-
