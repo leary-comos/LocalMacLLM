@@ -43,4 +43,3 @@ def test_loader_batching_and_token_target():
     # batch_size approx target_tokens/seq_len
     expected = max(1, target_tokens // ds.seq_len)
     assert first_batch.shape[0] in (expected, expected - 1, expected + 1)
-
