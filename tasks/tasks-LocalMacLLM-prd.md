@@ -69,4 +69,3 @@
   - [x] 7.3 Generate sample stories for fixed prompts via the CLI; confirm outputs are coherent and non-empty.
   - [x] 7.4 Update `README.md` with final measured metrics, example outputs, and troubleshooting notes (memory tips, closing background apps).
 
-
