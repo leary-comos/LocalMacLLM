@@ -145,4 +145,3 @@ def count_parameters(model_or_cfg) -> int:
     final_ln = 2 * C
     # LM head is tied to tok_emb (no extra params)
     return emb + blocks_total + final_ln
-
