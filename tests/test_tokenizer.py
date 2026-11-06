@@ -58,4 +58,3 @@ def test_encode_decode_round_trip():
     assert isinstance(decoded, str) and len(decoded) > 0
     # SentencePiece preserves content; minor whitespace normalization can occur
     assert decoded.strip() == text.strip()
-
