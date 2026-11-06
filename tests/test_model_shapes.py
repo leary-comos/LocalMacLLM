@@ -30,4 +30,3 @@ def test_parameter_count_within_expected_range():
     total = count_parameters(model)
     # Expect around ~1.5M; allow a reasonable margin for exact implementation details
     assert 1_300_000 <= total <= 1_800_000
-
